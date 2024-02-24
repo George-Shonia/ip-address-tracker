@@ -1,0 +1,28 @@
+.result-wrapper {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 25%;
+  top: 250px;
+  .result-container {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    .result {
+      padding: 60px 30px 60px 30px;
+      div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+        border-right: 1px solid gray;
+        padding-right: 50px;
+        p {
+            font-size: 30px;
+          }
+      }
+    }
+  }
+}
